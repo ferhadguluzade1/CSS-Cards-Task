@@ -1,0 +1,62 @@
+body{
+    background-color: aliceblue;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.pack-button{
+    display: flex; 
+    padding-top: 15px; 
+    padding-bottom: 15px;
+    margin-top:70px;
+    margin-left: 43%;
+    background-color: rgb(188, 171, 38); 
+    border-radius: 20px; 
+    color: rgb(134, 63, 63);
+    border: 0px;
+    font-weight: 800;
+    width: 250;
+    /* padding-left: 25%; */
+   
+}
+.card1{
+   width: 230px;
+    height: 300px;
+    
+
+    gap:5px;
+    flex-direction: column;
+}
+.enterprise{
+    width: 220px;
+    height: 300px;
+    background-color: rgb(164, 34, 78);
+    border-radius: 15px;
+}
+.card2{
+    border-radius: 15px;
+    width: 200px;
+    height: 250px;
+    background-color: aliceblue;
+    gap:5px;
+    flex-direction: column;
+    
+}
+.card3{
+    width: 230px;
+    height: 300px;
+
+    
+    flex-direction: column;
+}
+li{
+    list-style-type: none;
+    font-weight: 700;
+}
+.btn{
+    
+}
